@@ -15,6 +15,13 @@
 		028C0FA42616B5C900FF8BC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C0F792616B5C700FF8BC9 /* ContentView.swift */; };
 		028C0FA52616B5C900FF8BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028C0F7A2616B5C900FF8BC9 /* Assets.xcassets */; };
 		028C0FA62616B5C900FF8BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028C0F7A2616B5C900FF8BC9 /* Assets.xcassets */; };
+		028C0FBF2616C5D900FF8BC9 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C0FBE2616C5D900FF8BC9 /* View1.swift */; };
+		028C0FC02616C5D900FF8BC9 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C0FBE2616C5D900FF8BC9 /* View1.swift */; };
+		028C0FC62616C5E200FF8BC9 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C0FC52616C5E200FF8BC9 /* View2.swift */; };
+		028C0FC72616C5E200FF8BC9 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C0FC52616C5E200FF8BC9 /* View2.swift */; };
+		028C0FCD2616C5F600FF8BC9 /* AppTabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C0FCC2616C5F600FF8BC9 /* AppTabNavigation.swift */; };
+		028C0FD32616E33300FF8BC9 /* AppSidebarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C0FD22616E33300FF8BC9 /* AppSidebarNavigation.swift */; };
+		028C0FD42616E33300FF8BC9 /* AppSidebarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028C0FD22616E33300FF8BC9 /* AppSidebarNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,10 @@
 		028C0F9A2616B5C900FF8BC9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		028C0F9E2616B5C900FF8BC9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		028C0FA02616B5C900FF8BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028C0FBE2616C5D900FF8BC9 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		028C0FC52616C5E200FF8BC9 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		028C0FCC2616C5F600FF8BC9 /* AppTabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigation.swift; sourceTree = "<group>"; };
+		028C0FD22616E33300FF8BC9 /* AppSidebarNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSidebarNavigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +131,7 @@
 		028C0F812616B5C900FF8BC9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				028C0FCC2616C5F600FF8BC9 /* AppTabNavigation.swift */,
 				028C0F822616B5C900FF8BC9 /* Info.plist */,
 			);
 			path = iOS;
@@ -155,6 +167,9 @@
 		028C0FBD2616C5AA00FF8BC9 /* SampleView */ = {
 			isa = PBXGroup;
 			children = (
+				028C0FBE2616C5D900FF8BC9 /* View1.swift */,
+				028C0FC52616C5E200FF8BC9 /* View2.swift */,
+				028C0FD22616E33300FF8BC9 /* AppSidebarNavigation.swift */,
 			);
 			path = SampleView;
 			sourceTree = "<group>";
@@ -317,7 +332,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				028C0FA32616B5C900FF8BC9 /* ContentView.swift in Sources */,
+				028C0FBF2616C5D900FF8BC9 /* View1.swift in Sources */,
+				028C0FD32616E33300FF8BC9 /* AppSidebarNavigation.swift in Sources */,
 				028C0FA12616B5C900FF8BC9 /* test_multiplatformApp.swift in Sources */,
+				028C0FC62616C5E200FF8BC9 /* View2.swift in Sources */,
+				028C0FCD2616C5F600FF8BC9 /* AppTabNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +345,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				028C0FA42616B5C900FF8BC9 /* ContentView.swift in Sources */,
+				028C0FC02616C5D900FF8BC9 /* View1.swift in Sources */,
 				028C0FA22616B5C900FF8BC9 /* test_multiplatformApp.swift in Sources */,
+				028C0FD42616E33300FF8BC9 /* AppSidebarNavigation.swift in Sources */,
+				028C0FC72616C5E200FF8BC9 /* View2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
