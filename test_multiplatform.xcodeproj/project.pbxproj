@@ -98,6 +98,7 @@
 		028C0F772616B5C700FF8BC9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				028C0FBD2616C5AA00FF8BC9 /* SampleView */,
 				028C0F782616B5C700FF8BC9 /* test_multiplatformApp.swift */,
 				028C0F792616B5C700FF8BC9 /* ContentView.swift */,
 				028C0F7A2616B5C900FF8BC9 /* Assets.xcassets */,
@@ -149,6 +150,13 @@
 				028C0FA02616B5C900FF8BC9 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		028C0FBD2616C5AA00FF8BC9 /* SampleView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SampleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
